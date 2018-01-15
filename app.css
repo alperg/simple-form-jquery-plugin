@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: Helvetica;
+  background-color: #fafafa;
+}
+
+.table {
+  margin: 20px;
+  border: 1px solid #bebebe;
+}
+
+.table thead {
+  background-color: #eaeaea;
+}
+.table tr:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.table th,
+.table td {
+  padding: 5px;
+}
+
+.form-wrapper {
+  margin: 20px;
+}
+
+.render-button {
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #4BCB7C;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Plugin specific styles */
+.form-wrapper {
+  background-color: #fff;
+  width: 750px;
+  font-family: Helvetica;
+}
+
+.form-wrapper .form {
+  padding: 40px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
+
+.form-wrapper .form .title {
+  color: #15507E;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #BCCDDF;
+}
+
+.form-wrapper .form .el-wrapper label {
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.form-wrapper .form .el-wrapper input {
+  display: inline-block;
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #eaeaea;
+  height: 25px;
+  border-radius: 4px;
+  background-color: #CAE6F8;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+.form-wrapper .form .el-wrapper textarea {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  background-color: #CAE6F8;
+  font-size: 18px;
+}
+
+.form-wrapper .form .submit-wrapper {
+  margin: 20px 0 0 170px;
+}
+.form-wrapper .form .submit-wrapper .submit {
+  width: 42%;
+  height: 35px;
+  font-size: 16px;
+  background-color: #6F9EC1;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
