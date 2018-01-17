@@ -3,4 +3,4 @@ Simple jQuery Plugin to create html forms for class activities
 
 APIs: http://api.alperg.com/forms
 
-Doc: [](dev-steps.pdf)
+Doc: [dev-steps.pdf](dev-steps.pdf)
