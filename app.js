@@ -2,17 +2,17 @@ $(function() {
 
   var apiUrl = "http://api.alperg.com/forms/";
 
-  function renderForm() {
+  function renderTable() {
     $.ajax({
       url: apiUrl,
       method: "GET"
     })
     .done(function(response) {
-      renderFormBody(response);
+      renderTableBody(response);
     });
   }
 
-  function renderFormBody(formData) {
+  function renderTableBody(formData) {
     var table = $("#formsTable");
     var tbody = $("<tbody>");
 
@@ -35,6 +35,6 @@ $(function() {
     table.append(tbody);
   }
 
-  renderForm();
+  renderTable();
 
 });

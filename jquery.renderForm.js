@@ -1,9 +1,8 @@
 $.fn.renderForm = function(config) {
   
   var form = renderForm();
-  form.append(renderTitle());
-  form.append(renderFormElements());
-  form.append(renderSubmit());
+  form.append(renderTitle(), renderFormElements(), renderSubmit());
+  
   this.append(form);
 
   function renderForm() {

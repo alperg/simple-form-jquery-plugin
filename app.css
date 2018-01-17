@@ -23,10 +23,6 @@ body {
   padding: 5px;
 }
 
-.form-wrapper {
-  margin: 20px;
-}
-
 .render-button {
   width: 80px;
   height: 30px;
@@ -38,6 +34,7 @@ body {
 
 /* Plugin specific styles */
 .form-wrapper {
+  margin: 20px;
   background-color: #fff;
   width: 750px;
   font-family: Helvetica;
