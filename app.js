@@ -1,6 +1,6 @@
 $(function() {
 
-  var apiUrl = "http://api.alperg.com/forms/";
+  var apiUrl = "http://api.alperg.com/form/";
 
   function renderTable() {
     $.ajax({
